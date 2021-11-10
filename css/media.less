@@ -1,0 +1,164 @@
+@import 'mixins.less';
+@import 'variables.less';
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+/*1170*/
+@media only screen and (max-width :1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {	
+	.intro-text{
+		text-align: center;
+	}
+	.menu-item a {  
+		padding: 0;     
+	}
+	.me_content {
+		padding: 0;
+		text-align: center; 
+	}
+	.item-contact {   
+    max-width: 100%; 
+}
+.main-form {
+    max-width: 100%;    
+}
+.intro-header {
+  
+    
+    
+}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.nav_menu-name {
+		font-size: 18px;
+	}
+	.menu-item a {    
+		margin-right: 13px;    
+		font-size: 14px;
+
+	}
+	.sct-my_portfolio {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.sct-my_skills {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+    .img-item-contact {   
+    margin-bottom: 5px;
+}
+.item-contact-block{
+	margin-bottom: 20px;
+}
+.item-contact {  
+    margin-bottom: 10px;
+}
+.main-form {  
+    padding-bottom: 40px;
+}
+.h2_decor_center {    
+    font-size: 30px;  
+    margin-bottom: 40px;
+    &:after {    
+    top: 47px;   
+}
+}
+
+	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 576px) {
+	.intro-text h1 {
+		font-size: 50px;    
+		margin-bottom: 10px;   
+	}	
+	.navbar-custom .d-flex {
+		justify-content: center;    
+	}
+	.nav_menu-item {    
+		padding-top: 5px;
+	}
+	.menu-item a {
+		margin-right: 11px;
+		font-size: 13px;
+	}
+	.me_content a {
+		width: 50%;    
+	}
+	.about_me {
+		padding-top: 15px;
+		padding-bottom: 20px;
+	}
+	.categories .type li:not(:last-child):after {
+    content: ' | ';
+    margin-left: 5px;
+}
+.categories .type li {
+     margin-left: 0px;
+}
+.sct-my_services {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.sct-my_services i {
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+.circle {
+    width: 178px;
+    height: 156px;
+}
+
+.item-contact {    
+    margin-bottom: 30px;
+}
+.social-link {
+    width: 60%;   
+}
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.menu-item a {
+		margin-right: 10px;
+		font-size: 12px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 576px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
